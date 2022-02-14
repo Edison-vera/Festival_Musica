@@ -1,19 +1,26 @@
 {
-  "name": "festival_musica",
-  "version": "1.0.0",
-  "description": "Proyecto con Gulp, SASS y HTML",
-  "main": "index.js",
-  "scripts": {
-    "test": "git remote add origin https://github.com/Edison-vera/Festival_Musica.git"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git remote add origin https://github.com/Edison-vera/Festival_Musica.git"
-  },
-  "keywords": [
-    "SASS",
-    "GLUP"
-  ],
-  "author": "Edison Vera",
-  "license": "ISC"
+    "name": "festival_musica",
+    "version": "1.0.0",
+    "description": "Proyecto con Gulp, SASS y HTML",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch src/scss:bluid/css",
+        "test": "git remote add origin https://github.com/Edison-vera/Festival_Musica.git"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git remote add origin https://github.com/Edison-vera/Festival_Musica.git"
+    },
+    "keywords": [
+        "SASS",
+        "GLUP"
+    ],
+    "author": "Edison Vera",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-plumber": "^1.2.1",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.49.7"
+    }
 }
